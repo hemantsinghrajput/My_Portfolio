@@ -1,14 +1,15 @@
 import React,{useState} from 'react'
+import {Link } from 'react-router-dom';
 import axios from 'axios';
 import './js/meyawo.js'
-import me from './imgs/hemant_bg.png'
+import me from './imgs/hsr.jpg'
 import pencil from './imgs/pencil-case.svg'
 import responsive from './imgs/responsive.svg'
 import tool from "./imgs/toolbox.svg"
 import analytic from "./imgs/analytics.svg"
 import folio1 from "./imgs/movie.jpg"
 import folio2 from "./imgs/pub.jpg"
-import folio3 from "./imgs/digit.png"
+import folio3 from "./imgs/digitt.png"
 import scooter from "./imgs/scooter.svg"
 import startup from "./imgs/startup.svg"
 import shipped from "./imgs/shipped.svg"
@@ -115,7 +116,10 @@ function Home() {
             </h1>
             <p class="header-subtitle">FRONTEND WEB DESIGNER <br/>ASPIRING DATA SCIENTIST</p>
 
-            <button class="btn btn-primary" >Visit My Works</button>
+            <a href="https://github.com/hemantsinghrajput/" target="_blank" rel="noopener noreferrer">
+  <button class="btn btn-primary">Visit My Works</button>
+</a>
+
         </div>
     </header>
     {/* <!-- end of page header --> */}
